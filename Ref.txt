@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Portfolio in 2nd Quarter </title> </head>
+<style>
+
+
+
+p1 {
+color: #000033;
+font-size: 29px;
+font-family: Georgia;
+text-shadow: 2px 2px 5px #eead0e;
+}
+
+
+
+
+
+
+
+
+
+p2 {
+color: 	#eead0e;
+font-family: Garamond;
+font-weight: bold;
+font-size: 22px;
+text-align: center;
+margin-left: 50px;
+}
+
+
+
+
+img { 
+float: left;
+}
+
+
+
+
+body {
+background-color: #cd950c;
+ margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000033;
+width: 65%;
+height: 50px;
+float: center;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #b8860b;
+  text-align: center;
+  padding: 14px 14px;
+text-decoration: none;
+font-weight: bold;
+font-size: 15px;
+}
+
+li a:hover {
+  background-color: #eead0e;
+}
+
+
+li a {
+  width: 120px;
+  height: 100px;
+  background: #000033;
+  transition: width 1s;
+}
+
+li a:hover {
+  width: 150px;
+background-color: #eead0e;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 50%;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #eead0e;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #cd950c;
+}
+
+
+
+
+
+
+
+</style>
+<body>
+
+<hr width="100%" size="10px" color="#000033">
+<hr width="100%" size="10px" color="#000033">
+
+
+
+<table width="100%" bgcolor="#eead0e" cellpadding="18px" cellspacing="0px" border="1px" bordercolor="#cd950c">
+
+
+
+<tr>
+
+
+
+
+<td  align="center" valign="middle" background="gold.jpg" background-repeat="repeat-x" height="25%">
+<p1> Welcome to my 2nd Quarter Portfolio! </p1> </td> 
+</tr>
+
+
+
+
+
+<tr> 
+<td align="center" valign="middle" bgcolor="#000033" height="25%">
+<ul>
+  <li><a href="index.html"> Home </a></li>
+  <li><a href="AM.html"> About Me </a></li>
+  <li><a href="Act.html"> Activities </a></li>
+  <li><a href="Out.html"> Pairworks </a></li>
+<li><a class="active" href="Ref.html"> Reflection </a></li>
+<li><a href="https://whitey08.github.io/PORTY-YannaIdos/" target="blank"> Previous Portfolio </a></li>
+</ul>
+</td>
+</tr>
+
+
+
+<tr>
+<td valign="middle" bgcolor="#000033" background-repeat="repeat-x" height="25%" cellpadding="15px">
+
+
+<button onclick="topFunction()" id="myBtn" title="Go back to the top of the page">Back to Top</button>
+
+
+<br> 
+
+<img src="chill guy.png" style="float:left;width:200px;" alt="chill guy">
+
+<p2>   
+
+ <hr width="80%" size="3px" color="#eead0e">
+<br>
+
+I've learned a lot in this quarter. It not only helped me understand the concept of web designing but also helped me improve my skills and test my capacity to explore boundaries in making a website. <br> <br> 
+
+
+
+CSS is a familiar term but I just learned about it now almost fully, which is really helpful and useful, and made coding even more fun. Of course, the harder the code gets, the more confusing and challenging it is for me to come up with ideas for design. It helped me balance and improve my creativity. Learning CSS made learning coding more exciting and made me look forward to future lessons.
+
+<br> <br>
+
+
+
+I couldn't really avoid scenarios in which I couldn't understand various terminologies and lessons, but with a little push— voila, and I find myself learning new codes. Although this quarter may be more challenging than the previous one, with all the time pressure and mistakes in codes and syntax, that's what makes it more enjoyable! <br> <br>
+
+
+Overall, I would like to thank my lovely teacher and peers who helped me throughout this journey not only to learn, but to have fun doing so. When I didn't know what to do, when I was so confused and can't do anything, they helped me succeed and realize that there is no difficult lesson if you just work hard to learn it. Thank you for taking time to explore my portfolio and have a nice day— til' next quarter!
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+
+
+
+ </td> </tr> </table> 
+
+<hr width="100%" size="10px" color="#000033">
+<hr width="100%" size="10px" color="#000033">
+
+
+
+</body>
+
+
+
+
+
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
